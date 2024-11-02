@@ -1,0 +1,31 @@
+.slider{
+    position: relative;
+}
+.slider-img{
+    width: 100%;
+    display: none;
+    height: 350px;
+    border-radius: 3px;
+    transition: 0.3s all ease;
+    overflow: hidden;
+}
+.current{
+    z-index: 100;
+    display: block; 
+}
+.left-arrow {
+    position: absolute;
+    top: -2%;
+    right: 40px;
+}
+.right-arrow {
+    position: absolute;
+    top: -2%;
+    right: 0;
+}
+.left-arrow, .right-arrow{
+    position: absolute;
+    cursor: pointer;
+    color: rgb(0, 119, 255);
+    font-size: 25px;
+}
