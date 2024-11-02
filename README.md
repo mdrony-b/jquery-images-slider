@@ -1,3 +1,3 @@
 # Simple jquery images slider
 
-<img src="img/example.png">
+<img src="jquery-images-slider/img/example.png">
